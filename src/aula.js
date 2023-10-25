@@ -4,7 +4,6 @@ import './aula-invertida.css';           // Importa o CSS para estilização.
 import { useState } from 'react';        // Importa o hook useState do React.
 
 function AulaInvertida() {
-  
   // Objeto onde você armazena os valores das propriedades que pertencem ao componente.
 
   // Capturar os valores retornados por useState.
@@ -14,8 +13,8 @@ function AulaInvertida() {
   //Contagem: Variável que armazena o valor atual do estado. Neste caso, é inicializado com o valor 0.
   //setContagem: É a função que você usa para atualizar o valor de contagem. Quando você chama setContagem, o componente é renderizado com o novo valor do estado.
 
-  // Função para incrementar o valor de "contagem".
-  const incrementar = () => {
+  // Incrementar o valor de "contagem".
+  function incrementar() {
     setContagem(contagem + 1);
   };
 
